@@ -9,36 +9,43 @@
         <title>Contact</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body background="assets/images/just-waves.png">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="header">
+    <header>
+        <div class="topsub">
+            <div class="headnamesub"> 
                 <H1>Bill Fehlberg</H1>
-                    <div class="navbar">
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>  
             </div>
+            <div class="navbarsub">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>  
+        </div>
+    </header>
         <div class="contact">
             <h2>Contact</h2>
-                <div class="container">
-                    <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="fullname" placeholder="firstlast">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="johndoe@gmail">
-                        <label for="message">Message</label>
-                        <input type="text" id="message" name="message" placeholder="write a message" style="height:80px;"></textarea>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>  
+            <div class="container">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="fullname" placeholder="firstlast">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="johndoe@gmail">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" placeholder="write a message" style="height:115px;"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>  
         </div>     
-        <footer>
-            footer
-        </footer>
+    <footer>
+        footer
+    </footer>
     </body>
 </html>

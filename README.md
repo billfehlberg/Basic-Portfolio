@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Basic Portfolio
+# Responsive-Portfolio
+bootstrap assignment 2
